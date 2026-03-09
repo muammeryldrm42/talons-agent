@@ -4,7 +4,7 @@
   "private": true,
   "description": "Talons Agent - AI-powered crypto market analysis dashboard built with Next.js and the OpenAI Responses API.",
   "engines": {
-    "node": ">=20.0.0"
+  "node": "20.18.x"
   },
   "scripts": {
     "dev": "next dev --turbopack",
