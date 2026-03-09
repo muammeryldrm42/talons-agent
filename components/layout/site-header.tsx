@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { Activity, ArrowRight, ChartCandlestick, History, ListStar, Settings } from 'lucide-react';
+import { Activity, ArrowRight, CandlestickChart, History, Settings, Star } from 'lucide-react';
 import { ThemeToggle } from '@/components/shared/theme-toggle';
 import { Button } from '@/components/ui/button';
 
 const links = [
-  { href: '/dashboard', label: 'Dashboard', icon: ChartCandlestick },
-  { href: '/watchlist', label: 'Watchlist', icon: ListStar },
+  { href: '/dashboard', label: 'Dashboard', icon: CandlestickChart },
+  { href: '/watchlist', label: 'Watchlist', icon: Star },
   { href: '/history', label: 'History', icon: History },
   { href: '/settings', label: 'Settings', icon: Settings },
 ];
